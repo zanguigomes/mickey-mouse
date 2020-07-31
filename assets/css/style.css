@@ -1,0 +1,200 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: #eeeeee;
+}
+.mkmouse-body-content-back,
+.mkmouse-ears,
+.mkmouse-eyes,
+.mkmouse-eyes-inside,
+.mkmouse-eyes-inside .iris,
+.mkmouse-cheeks,
+.mkmouse-mouth-chape,
+.mkmouse-noise,
+.mkmouse-cheek-inside-left,
+.mkmouse-cheek-inside-right,
+.mkmouse-chin,
+.mkmouse-smille,
+.mkmouse-tongue,
+.left-smile-sign,
+.right-smile-sign
+{
+    position: absolute;
+    display: block;   
+}
+
+/*--------------------------------*/
+/*------ FACE BOX CONTENT --------*/
+.mkmouse-body-content{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 10% auto;
+    background: black;    
+    border-radius: 50%;
+}
+.mkmouse-body-content-back{    
+    right: 0;
+    left: -15px;
+    width: 310px;
+    height: 385px; 
+    background: black;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+/*--------------------------------*/
+/*------     THE EARS     --------*/
+.mkmouse-ears{ 
+    width: 150px;
+    height: 200px;
+    background: black;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+    .mkmouse-ear-left{
+        top: -90px;
+        left: -50px;
+        transform: rotate(55deg);
+    }
+    .mkmouse-ear-right{
+        top: -70px;
+        right: -70px;
+        width: 140px;
+        height: 190px;
+        transform: rotate(-55deg);
+    }
+/*--------------------------------*/
+/*------      THE EYES    --------*/
+.mkmouse-eyes{    
+    width: 150px;
+    height: 200px;
+    background: #FFD6C1;
+    border-radius: 50%
+}
+.mkmouse-eye-left{
+    top: 30px;
+    left: 30px;
+}
+.mkmouse-eye-right{
+    top: 30px;
+    right: 30px;
+}
+.mkmouse-eyes-inside{
+    width: 40px;
+    height: 100px;
+    background: black;    
+    border-radius: 50%;
+}
+.mkmouse-eyes-inside-left{
+    bottom: 50px;
+    left: 40px;  
+}
+.mkmouse-eyes-inside-right{
+    bottom: 50px;
+    left: -30px;    
+}
+.mkmouse-eyes-inside .iris{
+    width: 20px;
+    height: 30px;
+    background: #FFD6C1;
+    border-radius: 50% 40%;
+}
+
+.mkmouse-eyes-inside .iris-left{
+    top: 20px;
+    right: -5px;
+}
+.mkmouse-eyes-inside .iris-right{
+    top: 20px;
+    left: -5px;
+}
+/*--------------------------------*/
+/*------      THE CHEEKS    --------*/
+.mkmouse-cheeks{
+    bottom: 10px;
+    width: 150px;
+    height: 200px;
+    background: black;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.mkmouse-cheek-right{
+    left: -25px;
+    transform: rotate(-55deg);
+}
+.mkmouse-cheek-left{
+    right: -25px;
+    transform: rotate(55deg);
+}
+.mkmouse-cheek-inside-left,
+.mkmouse-cheek-inside-right{
+    top: 5px;
+    width: 100px;
+    height: 185px;
+    background: #F2B895;
+    border-radius: 50%;
+}
+.mkmouse-cheek-inside-left{    
+    right: 5px;    
+    transform: rotate(165deg);
+}
+.mkmouse-cheek-inside-right{    
+    left: 5px;    
+    transform: rotate(195deg);
+}
+.left-smile-sign,.right-smile-sign{
+    bottom: 80px;
+    width: 20px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+}
+.left-smile-sign{
+    transform: rotate(60deg);    
+}
+.right-smile-sign{
+    right: 0;
+    transform: rotate(120deg);  
+}
+/*------------------------------------*/
+/*------   THE MOUTH CHAPE    --------*/
+.mkmouse-mouth-chape{
+    left: 30px;
+    right: 30px;
+    bottom: 20px;
+    height: 150px;
+    background: #F2B895;
+    border-radius: 90px;
+}
+.mkmouse-noise{
+    left: 50px;
+    right: 0;
+    width: 120px;
+    height: 90px;
+    background: black;
+    border-radius: 80% 90%;
+}
+.mkmouse-smille{
+    left: 10px;
+    right: 0;
+    bottom: 35px;
+    width: 280px;
+    height: 180px;
+    border-radius: 60%;
+    box-shadow: 1px 25px 0 0 black;
+}
+.mkmouse-tongue{
+    left: 90px;
+    right: 0;
+    bottom: 0px;
+    width: 110px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 1px 30px 8px 0 #C83828;
+}
+.mkmouse-chin{
+    left: 65px;
+    right: 0;
+    bottom: -66px;
+    width: 160px;
+    height: 100px;
+    background: black;
+    border-radius: 80% 90%;
+}
